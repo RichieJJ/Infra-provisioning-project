@@ -4,7 +4,7 @@
 - Create a Repo with name `CloudFormation-Jenkins-CICD`
 - Clone the Repository locally
 - Download the files from my GitHub Repo and add to yours
-- Update the `cloud-formation-jenkins-cicd` Slack Channel Name on Linke `45` in the `Jenkinsfile` to reflect yours (please leave the `#`)
+- Update the `cloud-formation-jenkins-cicd` Slack Channel Name on Line `45` in the `Jenkinsfile` to reflect yours (please leave the `#`)
 - Commit the changes locally and push to GitHub
 
 ## Instance Criteria
