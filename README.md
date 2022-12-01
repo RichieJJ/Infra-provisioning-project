@@ -15,9 +15,9 @@
 - IAM Role: Assign an EC2 Role with Administrator Access (This would be used to provision the environment granting Jenkins Authorization)
 - Update the security group and open port `8080` to `0.0.0.0/0`
 
-## Join the JJTech-Eagles-CI/CD DevOps Workspace Using The Following URL
+## Join the Richie-CI/CD DevOps Workspace Using The Following URL
 - https://join.slack.com/t/newworkspace-mtx6785/shared_invite/zt-1go3k7pz7-uSy3D4ai3Pb7KJk2G1sc1g
-- You can either join though the browser or your local Slack App
+- You can either join through the browser or your local Slack App
 - Create a `Private Channel` using the naming convention `yourFirstorLastname-cloudFormation-cicd`
 - Click on the Drop down on the Channel and select Integrations and take `Add an App`
 - Search for `Jenkins` and click on `View` >> `Configuration` >> `Add to Slack` 
