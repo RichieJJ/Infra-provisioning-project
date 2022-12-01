@@ -32,7 +32,7 @@ pipeline {
 //         }
         stage('Delete Prod Stack') {
             steps {
-            sh "aws cloudformation delete-stack --stack-name ventura-prod-infra-v1"
+            sh "aws cloudformation delete-stack --stack-name ventura-prod-infra-v1 --region 'us-east-1'"
             }
         }
     }
