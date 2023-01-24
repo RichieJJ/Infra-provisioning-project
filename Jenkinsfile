@@ -5,11 +5,11 @@ def COLOR_MAP = [
 pipeline {
     agent any
     stages {
-        stage('Validate Prod Stack') {
-            steps {
-            sh "aws cloudformation validate-template --template-body file://ventura-network-infra.yaml --region 'us-east-1'"
-            }
-        }
+//         stage('Validate Prod Stack') {
+//             steps {
+//             sh "aws cloudformation validate-template --template-body file://ventura-network-infra.yaml --region 'us-east-1'"
+//             }
+//         }
         stage('Template Cost Estimate') {
             steps {
             sh "aws cloudformation estimate-template-cost --template-body file://ventura-prod-env-infra.yaml --parameters file://ventura-infra-parametafile.json --region 'us-east-1'"
